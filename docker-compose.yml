@@ -1,0 +1,38 @@
+version: "3.9"
+
+services:
+  qdrant:
+    image: qdrant/qdrant:v1.11.0
+    container_name: qdrant
+    expose:
+      - "6333"
+    volumes:
+      - qdrant_storage:/qdrant/storage
+    restart: unless-stopped
+
+  chatbot:
+    build: .
+    container_name: rag-chatbot
+    expose:
+      - "8501"
+    environment:
+      - QDRANT_HOST=qdrant
+      - QDRANT_PORT=6333
+    depends_on:
+      - qdrant
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx-proxy
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - chatbot
+      - qdrant
+    restart: unless-stopped
+
+volumes:
+  qdrant_storage:

@@ -1,0 +1,83 @@
+ID	Title	Work Item Type	State	Effort	Business Value	Value Area	Tags	Iteration Path
+1143	Data Source & Ingestion	Epic	New			Business		Spike Up Graduation\Week 1
+1149	Research data sources	Feature	New			Business		Spike Up Graduation\Week 1
+1169	shortlist candidates	User Story	New			Business		Spike Up Graduation\Week 1
+1170	licensing & robots.txt	User Story	New			Business		Spike Up Graduation\Week 1
+1171	access methods (API/scrape)	User Story	New			Business		Spike Up Graduation\Week 1
+1150	Scraper/collector prototype	Feature	New			Business		Spike Up Graduation\Week 1
+1172	PoC collector	User Story	New			Business		Spike Up Graduation\Week 1
+1173	pagination & rate limit	User Story	New			Business		Spike Up Graduation\Week 1
+1174	basic logging	User Story	New			Business		Spike Up Graduation\Week 1
+1151	Upload raw data to S3	Feature	New			Business		Spike Up Graduation\Week 1
+1175	bucket write test	User Story	New			Business		Spike Up Graduation\Week 1
+1176	first raw dump	User Story	New			Business		Spike Up Graduation\Week 1
+1177	integrity & metadata check	User Story	New			Business		Spike Up Graduation\Week 1
+1144	AWS Storage Setup	Epic	New			Business		Spike Up Graduation\Week 1
+1152	Create S3 bucket(s)	Feature	New			Business		Spike Up Graduation\Week 1
+1178	raw + processed buckets	User Story	New			Business		Spike Up Graduation\Week 1
+1179	versioning & lifecycle	User Story	New			Business		Spike Up Graduation\Week 1
+1180	encryption	User Story	New			Business		Spike Up Graduation\Week 1
+1153	Define folder/structure conventions	Feature	New			Business		Spike Up Graduation\Week 1
+1181	prefix conventions	User Story	New			Business		Spike Up Graduation\Week 1
+1182	metadata headers	User Story	New			Business		Spike Up Graduation\Week 1
+1183	manifest template	User Story	New			Business		Spike Up Graduation\Week 1
+1154	Set access policies & permissions	Feature	New			Business		Spike Up Graduation\Week 1
+1184	roles (etl/rag)	User Story	New			Business		Spike Up Graduation\Week 1
+1185	least-privilege policies	User Story	New			Business		Spike Up Graduation\Week 1
+1186	access tests	User Story	New			Business		Spike Up Graduation\Week 1
+1145	ETL Pipeline Implementation	Epic	New			Business		Spike Up Graduation\Week 2
+1155	Design ETL flow	Feature	New			Business		Spike Up Graduation\Week 2
+1187	dataflow diagram	User Story	New			Business		Spike Up Graduation\Week 2
+1189	tool choice	User Story	New			Business		Spike Up Graduation\Week 2
+1156	Build extraction logic	Feature	New			Business		Spike Up Graduation\Week 2
+1190	read raw from S3	User Story	New			Business		Spike Up Graduation\Week 2
+1191	incremental markers	User Story	New			Business		Spike Up Graduation\Week 2
+1192	error handling	User Story	New			Business		Spike Up Graduation\Week 2
+1157	Build transformation logic	Feature	New			Business		Spike Up Graduation\Week 2
+1193	clean & normalize	User Story	New			Business		Spike Up Graduation\Week 2
+1194	chunking for RAG	User Story	New			Business		Spike Up Graduation\Week 2
+1195	metadata enrichment	User Story	New			Business		Spike Up Graduation\Week 2
+1158	Build loading logic	Feature	New			Business		Spike Up Graduation\Week 2
+1196	write to processed S3	User Story	New			Business		Spike Up Graduation\Week 2
+1197	index/manifest	User Story	New			Business		Spike Up Graduation\Week 2
+1198	validation pass	User Story	New			Business		Spike Up Graduation\Week 2
+1159	Orchestration & CI/CD	Feature	New			Business		Spike Up Graduation\Week 2
+1199	triggerable job	User Story	New			Business		Spike Up Graduation\Week 2
+1200	logging & metrics	User Story	New			Business		Spike Up Graduation\Week 2
+1146	RAG Integration	Epic	New			Business		Spike Up Graduation\Week 3
+1160	Implement S3 event detection	Feature	New			Business		Spike Up Graduation\Week 3
+1201	event rule	User Story	New			Business		Spike Up Graduation\Week 3
+1202	queue/Lambda wiring	User Story	New			Business		Spike Up Graduation\Week 3
+1203	dedupe guard	User Story	New			Business		Spike Up Graduation\Week 3
+1161	Trigger ETL on change	Feature	New			Business		Spike Up Graduation\Week 3
+1204	batch windowing	User Story	New			Business		Spike Up Graduation\Week 3
+1205	retries & backoff	User Story	New			Business		Spike Up Graduation\Week 3
+1162	Update RAG ingestion pipeline	Feature	New			Business		Spike Up Graduation\Week 3
+1206	format mapping	User Story	New			Business		Spike Up Graduation\Week 3
+1207	embeddings job	User Story	New			Business		Spike Up Graduation\Week 3
+1208	vector store write	User Story	New			Business		Spike Up Graduation\Week 3
+1163	Reindex & E2E validation	Feature	New			Business		Spike Up Graduation\Week 3
+1209	reindex pipeline	User Story	New			Business		Spike Up Graduation\Week 3
+1210	regression queries	User Story	New			Business		Spike Up Graduation\Week 3
+1211	latency check	User Story	New			Business		Spike Up Graduation\Week 3
+1147	Documentation & Reporting	Epic	New			Business		Spike Up Graduation\Week 4
+1164	Project setup documentation	Feature	New			Business		Spike Up Graduation\Week 1
+1212	repo README	User Story	New			Business		Spike Up Graduation\Week 4
+1213	AWS setup steps	User Story	New			Business		Spike Up Graduation\Week 4
+1214	env vars & secrets	User Story	New			Business		Spike Up Graduation\Week 4
+1165	ETL documentation	Feature	New			Business		Spike Up Graduation\Week 2
+1215	pipeline walkthrough	User Story	New			Business		Spike Up Graduation\Week 4
+1216	schemas	User Story	New			Business		Spike Up Graduation\Week 4
+1217	runbook	User Story	New			Business		Spike Up Graduation\Week 4
+1166	RAG documentation	Feature	New			Business		Spike Up Graduation\Week 3
+1218	specifications	User Story	New			Business		Spike Up Graduation\Week 4
+1219	reindex guide	User Story	New			Business		Spike Up Graduation\Week 4
+1220	Sprint Summaries	Feature	New			Business		Spike Up Graduation
+1221	Week 1 summary	User Story	New			Business		Spike Up Graduation\Week 1
+1222	Week 2 summary	User Story	New			Business		Spike Up Graduation\Week 2
+1223	Week 3 summary	User Story	New			Business		Spike Up Graduation\Week 3
+1224	Week 4 summary	User Story	New			Business		Spike Up Graduation\Week 4
+1167	Final report & defense slides	Feature	New			Business		Spike Up Graduation
+1225	slide deck	User Story	New			Business		Spike Up Graduation
+1226	demo	User Story	New			Business		Spike Up Graduation\Week 4
+1227	dry run	User Story	New			Business		Spike Up Graduation\Week 4
