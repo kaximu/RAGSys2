@@ -62,6 +62,12 @@ Per-question detail view (chunks with source + score + preview) + export JSON/TX
 # index management (select / delete current / delete all), feedback logging,
 # admin dashboard, and reset chat.
 
+# chatbot_app_Qdrant.py
+# Full Streamlit RAG app with Qdrant Cloud + optional FAISS + Hybrid retrieval,
+# multi-query expansion, reranking, similarity thresholding, debug view,
+# index management (select / delete current / delete all), feedback logging,
+# admin dashboard, and reset chat.
+
 import os
 import re
 import io
